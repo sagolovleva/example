@@ -12,6 +12,7 @@ describe('Should retrieve information: ', () => {
             .end((err, res) => {
                 console.log(res.body)
                 expect(res).to.have.status(200);
+                
                 done();
             });
     });
