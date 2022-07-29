@@ -13,7 +13,8 @@ describe('Should retrieve information: ', () => {
                 console.log(res.body)
                 expect(res).to.have.status(200);
                 
-                done();
+
+                done(); // this is a comment
             });
     });
 });
